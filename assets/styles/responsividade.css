@@ -1,0 +1,150 @@
+/* Estilos gerais (para telas maiores que 1200px ou padrão desktop) */
+body {
+  font-size: 1rem;
+  background-color: #ffffff;
+}
+
+/* 320px: Dispositivos de baixa resolução */
+@media (max-width: 320px) {
+  body {
+    font-size: 0.8rem;
+    background-color: #f0f0f0;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  .container {
+    padding: 0.5rem;
+  }
+}
+
+/* 480px: Smartphones padrão */
+@media (min-width: 321px) and (max-width: 480px) {
+  body {
+    font-size: 0.9rem;
+    background-color: #e8e8e8;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .container {
+    padding: 0.75rem;
+  }
+}
+
+/* 720px: Smartphones grandes e tablets pequenos */
+@media (min-width: 481px) and (max-width: 720px) {
+  body {
+    font-size: 1rem;
+    background-color: #dfe8f1;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  .container {
+    max-width: 85%;
+    padding: 1rem;
+  }
+}
+
+/* 768px: Tablets em modo retrato (iPads) */
+@media (min-width: 721px) and (max-width: 768px) {
+  body {
+    font-size: 1rem;
+    background-color: #d6e6f5;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  .container {
+    max-width: 80%;
+    padding: 1.5rem;
+  }
+}
+
+/* 900px: Tablets em modo paisagem */
+@media (min-width: 769px) and (max-width: 900px) {
+  body {
+    font-size: 1.1rem;
+    background-color: #cce0f0;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  .container {
+    max-width: 75%;
+    padding: 2rem;
+  }
+}
+
+/* 1024px: Tablets em paisagem e desktops pequenos */
+@media (min-width: 901px) and (max-width: 1024px) {
+  body {
+    font-size: 1.2rem;
+    background-color: #c4daf1;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .container {
+    max-width: 70%;
+    padding: 2.5rem;
+  }
+}
+
+/* Estilos para telas maiores que 1200px (desktops grandes) */
+@media (min-width: 1025px) {
+  body {
+    font-size: 1.3rem;
+    background-color: #ffffff;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  .container {
+    max-width: 60%;
+    padding: 3rem;
+  }
+}
