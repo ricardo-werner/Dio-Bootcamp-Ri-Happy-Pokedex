@@ -6,6 +6,32 @@
     margin-top: 1rem;
     font-size: 1.825rem;
   }
+
+  main section .poke-container {
+    border: 1px solid #000;
+    padding: 1.425rem;
+    border-radius: 0.825rem;
+    width: 100%;
+  }
+  main section .pokemons {
+    display: grid;
+    grid-template-columns: 1fr;
+    color: #fff;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 0.5rem;
+  }
+  main section .types .type {
+    background-color: #61e1ca;
+    color: #fff;
+    border-radius: 0.825rem;
+    padding: 0.25rem;
+    margin: 0.25rem 0;
+    text-align: center;
+    font-size: 0.5rem;
+    list-style: none;
+  }
 }
 
 /* 720px: Smartphones grandes e tablets pequenos */
@@ -15,6 +41,33 @@
     color: #333;
     margin-top: 1rem;
     font-size: 1.825rem;
+  }
+
+  main section .poke-container {
+    border: 1px solid #000;
+    padding: 1.425rem;
+    border-radius: 0.825rem;
+    width: 100%;
+  }
+  main section .pokemons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    color: #fff;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 0.5rem;
+  }
+  main section .types .type {
+    background-color: #61e1ca;
+    color: #fff;
+    border-radius: 0.825rem;
+    padding: 0.25rem;
+    margin: 0.25rem 0;
+    text-align: center;
+    font-size: 0.5rem;
+    list-style: none;
   }
 }
 
@@ -46,6 +99,33 @@
     background-color: #333;
     color: #fff;
     cursor: pointer;
+  }
+
+  main section .poke-container {
+    border: 1px solid #000;
+    padding: 1.425rem;
+    border-radius: 0.825rem;
+    width: 100%;
+  }
+  main section .pokemons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    color: #fff;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 0.5rem;
+  }
+  main section .types .type {
+    background-color: #61e1ca;
+    color: #fff;
+    border-radius: 0.825rem;
+    padding: 0.25rem;
+    margin: 0.25rem 0;
+    text-align: center;
+    font-size: 0.5rem;
+    list-style: none;
   }
 }
 
@@ -79,6 +159,33 @@
     background-color: #333;
     color: #fff;
     cursor: pointer;
+  }
+
+  main section .poke-container {
+    border: 1px solid #000;
+    padding: 1.425rem;
+    border-radius: 0.825rem;
+    width: 100%;
+  }
+  main section .pokemons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    color: #fff;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 0.5rem;
+  }
+  main section .types .type {
+    background-color: #61e1ca;
+    color: #fff;
+    border-radius: 0.825rem;
+    padding: 0.25rem;
+    margin: 0.25rem 0;
+    text-align: center;
+    font-size: 0.5rem;
+    list-style: none;
   }
 }
 
@@ -118,6 +225,33 @@
     color: #fff;
     cursor: pointer;
   }
+
+  main section .poke-container {
+    border: 1px solid #000;
+    padding: 1.425rem;
+    border-radius: 0.825rem;
+    width: 100%;
+  }
+  main section .pokemons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    color: #fff;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 0.5rem;
+  }
+  main section .types .type {
+    background-color: #61e1ca;
+    color: #fff;
+    border-radius: 0.825rem;
+    padding: 0.25rem;
+    margin: 0.25rem 0;
+    text-align: center;
+    font-size: 0.5rem;
+    list-style: none;
+  }
 }
 
 /* Estilos para telas maiores que 1200px (desktops grandes) */
@@ -155,5 +289,31 @@
     background-color: #333;
     color: #fff;
     cursor: pointer;
+  }
+
+  main section .poke-container {
+    border: 1px solid #000;
+    padding: 1.425rem;
+    border-radius: 0.825rem;
+    width: 100%;
+  }
+  main section .pokemons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    color: #fff;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 0.5rem;
+  }
+  main section .types .type {
+    background-color: #61e1ca;
+    color: #fff;
+    border-radius: 0.825rem;
+    padding: 0.25rem;
+    margin: 0.25rem 0;
+    text-align: center;
+    font-size: 0.5rem;
+    list-style: none;
   }
 }
