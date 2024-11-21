@@ -1,6 +1,6 @@
 .main-content {
   border: 1px solid #000;
-  padding: 1.425rem;
+  padding: 0.825rem;
   border-radius: 0.825rem;
   background-color: #f9f9f9;
   max-width: 50rem;
@@ -18,7 +18,6 @@ main section .poke-container {
   padding: 1.425rem;
   border-radius: 0.825rem;
   max-width: 50rem;
-  margin: 0 auto;
 }
 
 main section ol {
@@ -28,27 +27,53 @@ main section ol {
   list-style: none;
   padding: 0;
   margin: 0;
-  gap: 1rem; /* Adiciona espaçamento entre os itens */
 }
 
 main .poke-container ol .pokemon {
   display: flex;
   flex-direction: column;
   padding: 0.5rem;
-  border: 1px solid #000; /* Borda branca em cada item */
   border-radius: 0.825rem;
-  background-color: #0d8a57; /* Cor de fundo dos itens */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve (opcional) */
+  background-color: #49d0b0;
 }
 
-
 main section .number {
-  color: #49d0b0;
+  color: #01241c;
+  font-size: 0.625rem;
   text-align: right;
+  opacity: 0.3;
+}
 
+main section .name {
+  color: #fff;
+  margin-bottom: 0.25rem;
+}
+
+main .detail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main section .types {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+main section .types .type {
+  background-color: #61e1ca;
+  color: #fff;
+  border-radius: 0.825rem;
+  padding: 0.25rem;
+  margin: 0.25rem 0;
+  text-align: center;
+  font-size: 0.5rem;
 }
 
 main section ol img {
   max-width: 100%;
-  height: 5rem;
+  height: 4.25rem;
 }
