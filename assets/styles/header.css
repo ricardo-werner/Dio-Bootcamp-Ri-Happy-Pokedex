@@ -5,7 +5,7 @@ header h1 {
 }
 
 header h1 img {
-  width: 1.5rem;
+  width: 1.25rem;
 }
 
 header p {
@@ -27,12 +27,13 @@ header .btn-search {
 header .btn-search input {
   padding: 0.5rem;
   border: 1px solid #ccc;
-  border-radius: 1rem;}
+  border-radius: 1rem;
+}
 
 header .btn-search button {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem;
   border: none;
-  border-radius: 5px;
+  border-radius: 0.825rem;
   background-color: #333;
   color: #fff;
   cursor: pointer;
