@@ -1,4 +1,6 @@
-const pokeApi = {}
+import { Pokemon } from "./pokeModels.js"
+
+export const pokeApi = {}
 
 function convertPokeApiDetailToPokemon(pokeDetail) {
   const pokemon = new Pokemon()

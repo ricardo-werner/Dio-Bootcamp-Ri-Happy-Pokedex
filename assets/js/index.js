@@ -1,3 +1,5 @@
+import { pokeApi } from "./pokeApi.js"
+
 const pokemonList = document.getElementById("pokemonList");
 const nextButton = document.getElementById("nextButton");
 
