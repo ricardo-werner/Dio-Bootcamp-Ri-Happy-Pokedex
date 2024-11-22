@@ -6,7 +6,7 @@
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sea Pokemon</title>
+    <title>Pokémon</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
@@ -17,13 +17,19 @@
 
   <body>
     <header>
-      <h1><img src="assets/icons/pokeball.svg">&nbsp;Pokemon</h1>
+      <h1><img src="assets/icons/pokeball.svg" />&nbsp;Pokemon</h1>
       <p>
-        Seja bem-vindo ao Pokemon, que começa com a ideia do criador de jogos Satoshi Tajiri, que colecionava insetos na infância e os chamava de "monstros de bolso".
+        Seja bem-vindo ao Pokemon, que começa com a ideia do criador de jogos
+        Satoshi Tajiri, que colecionava insetos na infância e os chamava de
+        "monstros de bolso".
       </p>
       <div class="btn-search">
-        <input type="text" class="search" placeholder="Digite o nome do pokemon" />
-        <button class="search-button">Buscar</button>
+        <input
+          type="text"
+          class="search"
+          placeholder="Digite o nome do Pokémon"
+        />
+        <button id="search-button" onclick="getPokemonByName()">Buscar</button>
       </div>
     </header>
 
@@ -32,8 +38,7 @@
         <h2>Lista de Pokemons</h2>
 
         <div class="poke-container">
-          <ol id="pokemonList" class="pokemons">
-          </ol>
+          <ol id="pokemonList" class="pokemons"></ol>
 
           <div class="pagination">
             <button id="nextButton" class="next">Próxima</button>
