@@ -6,13 +6,14 @@
 
 :root {
   --font-family: "Poppins", "Roboto", "Open Sans", sans-serif;
-  --color-identidy: #DC0A2D;
+  --color-identity: #DC0A2D;
   --color-primary: #F5F5F5;
+  --color-secondary: #4b0404;
 }
 
 body {
   font-family: var(--font-family);
-  background-color: var(--color-identidy);
+  background-color: var(--color-identity);
   font-size: 0.825rem;
 }
 
