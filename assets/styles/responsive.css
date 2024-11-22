@@ -2,29 +2,28 @@
 @media (min-width: 281px) and (max-width: 480px) {
   header h1 {
     text-align: center;
-    color: #333;
+    color: var(--color-primary);
     margin-top: 1rem;
     font-size: 1.825rem;
   }
 
   main section .poke-container {
     border: 1px solid #000;
-    padding: 1.425rem;
+    padding-top: 1rem;
     border-radius: 0.825rem;
     width: 100%;
   }
   main section .pokemons {
     display: grid;
     grid-template-columns: 1fr;
-    color: #fff;
+    color: var(--color-primary);
     list-style: none;
     padding: 0;
     margin: 0;
     gap: 0.5rem;
   }
   main section .types .type {
-    background-color: #61e1ca;
-    color: #fff;
+    color: var(--color-primary);
     border-radius: 0.825rem;
     padding: 0.25rem;
     margin: 0.25rem 0;
@@ -38,14 +37,14 @@
 @media (min-width: 481px) and (max-width: 720px) {
   header h1 {
     text-align: center;
-    color: #333;
+    color: var(--color-primary);
     margin-top: 1rem;
     font-size: 1.825rem;
   }
 
   main section .poke-container {
     border: 1px solid #000;
-    padding: 1.425rem;
+    padding-top: 1rem;
     border-radius: 0.825rem;
     width: 100%;
   }
@@ -53,15 +52,14 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
-    color: #fff;
+    color: var(--color-primary);
     list-style: none;
     padding: 0;
     margin: 0;
     gap: 0.5rem;
   }
   main section .types .type {
-    background-color: #61e1ca;
-    color: #fff;
+    color: var(--color-primary);
     border-radius: 0.825rem;
     padding: 0.25rem;
     margin: 0.25rem 0;
@@ -75,14 +73,18 @@
 @media (min-width: 721px) and (max-width: 768px) {
   header h1 {
     text-align: center;
-    color: #333;
+    color: var(--color-primary);
     margin-top: 1.5rem;
     font-size: 2.25rem;
   }
 
+  header h1 img {
+  width: 1.75rem;
+}
+
   header p {
     text-align: center;
-    color: #666;
+    color: var(--color-secondary);
     margin-bottom: 0.5rem;
     padding: 0 2rem;
     font-size: 1.125rem;
@@ -96,14 +98,14 @@
     padding: 0.825rem;
     border: none;
     border-radius: 5px;
-    background-color: #333;
-    color: #fff;
+    background-color: var(--color-button);
+    color: var(--color-primary);
     cursor: pointer;
   }
 
   main section .poke-container {
     border: 1px solid #000;
-    padding: 1.425rem;
+    padding-top: 1rem;
     border-radius: 0.825rem;
     width: 100%;
   }
@@ -111,15 +113,14 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    color: #fff;
+    color: var(--color-primary);
     list-style: none;
     padding: 0;
     margin: 0;
     gap: 0.5rem;
   }
   main section .types .type {
-    background-color: #61e1ca;
-    color: #fff;
+    color: var(--color-primary);
     border-radius: 0.825rem;
     padding: 0.25rem;
     margin: 0.25rem 0;
@@ -133,16 +134,16 @@
 @media (min-width: 769px) and (max-width: 900px) {
   header h1 {
     text-align: center;
-    color: #333;
+    color: var(--color-primary);
     margin-top: 1.5rem;
     font-size: 2.5rem;
   }
   header h1 img {
-    width: 1.725rem;
+    width: 1.85rem;
   }
   header p {
     text-align: center;
-    color: #666;
+    color: var(--color-secondary);
     margin-bottom: 0.5rem;
     padding: 0 2rem;
     font-size: 1.125rem;
@@ -156,14 +157,14 @@
     padding: 0.825rem;
     border: none;
     border-radius: 5px;
-    background-color: #333;
-    color: #fff;
+    background-color: var(--color-button);
+    color: var(--color-primary);
     cursor: pointer;
   }
 
   main section .poke-container {
     border: 1px solid #000;
-    padding: 1.425rem;
+    padding-top: 1rem;
     border-radius: 0.825rem;
     width: 100%;
   }
@@ -171,15 +172,14 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    color: #fff;
+    color: var(--color-primary);
     list-style: none;
     padding: 0;
     margin: 0;
     gap: 0.5rem;
   }
   main section .types .type {
-    background-color: #61e1ca;
-    color: #fff;
+    color: var(--color-primary);
     border-radius: 0.825rem;
     padding: 0.25rem;
     margin: 0.25rem 0;
@@ -193,7 +193,7 @@
 @media (min-width: 901px) and (max-width: 1024px) {
   header h1 {
     text-align: center;
-    color: #333;
+    color: var(--color-primary);
     margin-top: 1.5rem;
     font-size: 3rem;
   }
@@ -202,7 +202,7 @@
   }
   header p {
     text-align: center;
-    color: #666;
+    color: var(--color-secondary);
     margin-bottom: 0.5rem;
     padding: 0 2rem;
     font-size: 1.5rem;
@@ -221,14 +221,14 @@
     padding: 1rem;
     border: none;
     border-radius: 0.825rem;
-    background-color: #333;
-    color: #fff;
+    background-color: var(--color-button);
+    color: var(--color-primary);
     cursor: pointer;
   }
 
   main section .poke-container {
     border: 1px solid #000;
-    padding: 1.425rem;
+    padding-top: 1rem;
     border-radius: 0.825rem;
     width: 100%;
   }
@@ -236,15 +236,14 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
-    color: #fff;
+    color: var(--color-primary);
     list-style: none;
     padding: 0;
     margin: 0;
     gap: 0.5rem;
   }
   main section .types .type {
-    background-color: #61e1ca;
-    color: #fff;
+    color: var(--color-primary);
     border-radius: 0.825rem;
     padding: 0.25rem;
     margin: 0.25rem 0;
@@ -258,7 +257,7 @@
 @media (min-width: 1025px) {
   header h1 {
     text-align: center;
-    color: #333;
+    color: var(--color-primary);
     margin-top: 1.5rem;
     font-size: 3rem;
   }
@@ -267,7 +266,7 @@
   }
   header p {
     text-align: center;
-    color: #666;
+    color: var(--color-secondary);
     margin-bottom: 0.5rem;
     padding: 0 2rem;
     font-size: 1.5rem;
@@ -286,29 +285,28 @@
     padding: 0.825rem;
     border: none;
     border-radius: 0.825rem;
-    background-color: #333;
-    color: #fff;
+    background-color: var(--color-button);
+    color: var(--color-primary);
     cursor: pointer;
   }
 
   main section .poke-container {
     border: 1px solid #000;
-    padding: 1.425rem;
+    padding-top: 1rem;
     border-radius: 0.825rem;
     width: 100%;
   }
   main section .pokemons {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    color: #fff;
+    color: var(--color-primary);
     list-style: none;
     padding: 0;
     margin: 0;
     gap: 0.5rem;
   }
   main section .types .type {
-    background-color: #61e1ca;
-    color: #fff;
+    color: var(--color-primary);
     border-radius: 0.825rem;
     padding: 0.25rem;
     margin: 0.25rem 0;
