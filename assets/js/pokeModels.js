@@ -5,11 +5,11 @@ class Pokemon {
   types = [];
   image;
 
-    constructor(name, number, type, types, image) {
-        this.name = name;
-        this.number = number;
-        this.type = type;
-        this.types = types;
-        this.image = image;
-    }
+  constructor(number, name, type, types, image) {
+    this.number = number;
+    this.name = name;
+    this.type = type;
+    this.types = types;
+    this.image = image;
+  }
 }
