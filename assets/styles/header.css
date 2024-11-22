@@ -1,6 +1,6 @@
 header h1 {
   text-align: center;
-  color: #333;
+  color: var(--color-primary);
   margin-top: 1rem;
 }
 
@@ -10,7 +10,7 @@ header h1 img {
 
 header p {
   text-align: center;
-  color: #666;
+  color: var(--color-secondary);
   margin-bottom: 0.5rem;
   padding: 0 2rem;
 }
