@@ -6,10 +6,67 @@
 
 :root {
   --font-family: "Poppins", "Roboto", "Open Sans", sans-serif;
+  --color-identidy: #DC0A2D;
+  --color-primary: #F5F5F5;
 }
 
 body {
   font-family: var(--font-family);
-  background-color: #f0f0f0;
+  background-color: var(--color-identidy);
   font-size: 0.825rem;
+}
+
+.normal {
+  background-color: #AAA67F ;
+}
+.grass {
+  background-color: #74CB48 ;
+}
+.fire {
+  background-color: #F57D31 ;
+}
+.water { 
+  background-color: #6493EB ;
+}
+.electric {
+  background-color: #F9CF30 ;
+}
+.ice {
+  background-color: #9AD6DF ;
+}
+.ground {
+  background-color: #DEC16B ;
+}
+.flying {
+  background-color: #A891EC ;
+}
+.poison {
+  background-color: #A43E9E ;
+}
+.fighting {
+  background-color: #C12239 ;
+}
+.psychic {
+  background-color: #FB5584 ;
+}
+.bug {
+  background-color: #A7B723 ;
+}
+.rock {
+  background-color: #B69E31 ;
+}
+.ghost { 
+  background-color: #70559B ;
+}
+.dark {
+  background-color: #75574C ;
+}
+.steel {
+  background-color: #B7B9D0 ;
+}
+.fairy {
+  background-color: #E69EAC ;
+}
+.dragon {
+  background-color: #7037FF ;
 }
