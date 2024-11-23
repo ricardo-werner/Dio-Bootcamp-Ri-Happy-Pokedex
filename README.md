@@ -30,7 +30,7 @@ O objetivo deste projeto é desenvolver uma página interativa para exibir infor
 
 #### Tela da Página
 <p align="center">
-  <img width="480" src="./assets/to_readme/telaInicial.png" alt="imagem da tela da página do Pokedex"
+  <img width="480" src="./assets/to_readme/tela_inicial.PNG" alt="imagem da tela da página do Pokedex"
 </p>
 
 #### Tela da Página com Resultado
@@ -108,7 +108,7 @@ Desenvolver este projeto foi um marco significativo no meu aprendizado na progra
 4. Visualize o resultado na página web:
 
    <p align="center">
-     <img width="480" src="./assets/to_readme/telaWeb.png" alt="Resultado na Web">
+     <img width="480" src="./assets/to_readme/telaWeb.PNG" alt="Resultado na Web">
    </p>
 
 
