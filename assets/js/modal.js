@@ -1,22 +1,24 @@
-// Seletores para o modal e seu conteúdo
-const pokemonDetailModal = document.getElementById("pokemonDetailModal");
-const pokemonDetail = document.getElementById("pokemonDetail");
-const closeModal = document.getElementById("closeModal");
-
-// Função para exibir detalhes do Pokémon no modal
 export function showPokemonDetails(pokemon) {
-  pokemonDetail.innerHTML = `
-    <h2>#${pokemon.number} - ${pokemon.name}</h2>
+  const modal = document.getElementById("pokemonModal");
+  const modalContent = modal.querySelector(".modal-content");
+
+  // Gera o conteúdo do modal com as informações do Pokémon
+  modalContent.innerHTML = `
+    <button class="modal-close-button">Fechar</button>
+    <h2>${pokemon.name}</h2>
     <img src="${pokemon.image}" alt="${pokemon.name}">
-    <p>Tipos: ${pokemon.types.join(", ")}</p>
+    <p>Tipo: ${pokemon.types.join(", ")}</p>
   `;
-  pokemonDetailModal.classList.add("visible");
+
+  // Remove a classe que esconde o modal
+  modal.classList.remove("hidden");
+
+  // Adiciona evento ao botão de fechar
+  const closeButton = modalContent.querySelector(".modal-close-button");
+  closeButton.addEventListener("click", closePokemonModal);
 }
 
-// Função para fechar o modal
 export function closePokemonModal() {
-  pokemonDetailModal.classList.remove("visible");
+  const modal = document.getElementById("pokemonModal");
+  modal.classList.add("hidden"); // Esconde o modal
 }
-
-// Adiciona evento ao botão de fechar o modal
-closeModal.addEventListener("click", closePokemonModal);
