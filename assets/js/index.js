@@ -1,5 +1,5 @@
 import { pokeApi } from "./pokeApi.js";
-import { showPokemonDetails } from "./modal.js";
+import { showPokemonDetails, closePokemonModal } from "./modal.js";
 
 const pokemonList = document.getElementById("pokemonList");
 const nextButton = document.getElementById("nextButton");
@@ -13,7 +13,7 @@ let allLoadedPokemons = []; // Array para armazenar todos os Pokémon carregados
 // Função para converter um Pokémon em HTML
 function convertPokemonToLi(pokemon) {
   return ` 
-    <li class="pokemon ${pokemon.type} data-number="${pokemon.number}">
+    <li class="pokemon ${pokemon.type}">
       <span class="number">#${pokemon.number}</span>
       <span class="name">${pokemon.name}</span>
 
@@ -23,7 +23,12 @@ function convertPokemonToLi(pokemon) {
             .map((type) => `<li class="type ${type}">${type}</li>`)
             .join("")}
         </ol>
-        <img src="${pokemon.image}" alt="${pokemon.name}">
+        <img 
+          src="${pokemon.image}" 
+          alt="${pokemon.name}" 
+          class="pokemon-image"
+          data-number="${pokemon.number}" 
+        >
       </div>                
     </li> 
   `;
@@ -33,21 +38,18 @@ function convertPokemonToLi(pokemon) {
 function renderPokemonList(pokemons) {
   pokemonList.innerHTML = pokemons.map(convertPokemonToLi).join("");
 
-  // Adiciona eventos de clique aos itens da lista
-  const pokemonItems = pokemonList.querySelectorAll(".pokemon");
-  pokemonItems.forEach((item) => {
-    item.addEventListener("click", () => {
-      const pokemonNumber = item.dataset.number; // Obtém o número do atributo data-number
+  // Adiciona evento de clique às imagens
+  const pokemonImages = pokemonList.querySelectorAll(".pokemon-image");
+  pokemonImages.forEach((image) => {
+    image.addEventListener("click", () => {
+      const pokemonNumber = image.dataset.number;
       const pokemon = allLoadedPokemons.find(
-        (p) => p.number.toString() === pokemonNumber // Encontra o Pokémon correspondente
+        (p) => p.number.toString() === pokemonNumber
       );
-      if (pokemon) {
-        showPokemonDetails(pokemon); // Exibe o modal com os detalhes do Pokémon
-      }
+      showPokemonDetails(pokemon); // Exibe o modal com detalhes do Pokémon
     });
   });
 }
-
 
 // Função para carregar os Pokémon da API
 function loadPokemonItens(offset, limit) {
