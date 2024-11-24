@@ -26,7 +26,7 @@ function convertPokeApiDetailToPokemon(pokeDetail) {
 
   // Altura e peso
   pokemon.height = (pokeDetail.height / 10).toFixed(1) || 0;
-  pokemon.weight = pokeDetail.weight || 0;
+  pokemon.weight = (pokeDetail.weight / 10).toFixed(1) || 0;
 
   // Habilidades
   //console.log("Habilidades encontradas:", pokeDetail.abilities); // Verificar estrutura de abilities
