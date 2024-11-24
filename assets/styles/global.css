@@ -17,7 +17,7 @@
 body {
   font-family: var(--font-family);
   background-color: var(--background-color-identity);
-  font-size: 0.625rem;
+  font-size: 0.825rem;
 }
 
 /* Classe auxiliar com estilos reutilizáveis */
