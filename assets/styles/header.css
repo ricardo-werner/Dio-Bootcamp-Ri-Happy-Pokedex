@@ -33,7 +33,7 @@ header .btn-search input {
 header .btn-search button {
   padding: 0.5rem;
   border: none;
-  border-radius: 0.825rem;
+  border-radius: 0.625rem;
   background-color: #333;
   color: #fff;
   cursor: pointer;
