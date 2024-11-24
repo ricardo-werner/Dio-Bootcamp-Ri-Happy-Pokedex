@@ -13,15 +13,15 @@
   justify-content: center;
   align-items: center;
   z-index: 1000;
+  border-radius: 0.625rem;
 }
 
 .modal-content {
   background: var(--background-color-modal);
-  padding: 20px;
-  border-radius: 10px;
   text-align: center;
   width: 90%;
   max-width: 400px;
+  border-radius: 1rem;
 }
 
 .modal-content h2 {
@@ -31,21 +31,17 @@
 
 .modal-content img {
   width: 50%;
-  border-radius: 10px;
 }
 
 .close-modal {
-  border: none;
   padding: 10px;
   cursor: pointer;
-  border-radius: 5px;
   margin-bottom: 10px;
 }
 
 .modal-close-button {
-  border: 1px solid black;
-  padding: 0.5rem;
-  border-radius: 0.825rem;
+  display: flex;
+  border: none;
   margin-bottom: 1rem;
   cursor: pointer;
 }
@@ -54,4 +50,6 @@
   font-size: 0.825rem;
   margin: 0.825rem 0;
   text-transform: capitalize;
+  border-radius: 0.625rem;
+  padding: 0.325rem;
 }
