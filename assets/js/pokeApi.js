@@ -3,20 +3,45 @@ import { Pokemon } from "./pokeModels.js"
 export const pokeApi = {}
 
 function convertPokeApiDetailToPokemon(pokeDetail) {
-  const pokemon = new Pokemon()
-  pokemon.number = pokeDetail.id
-  pokemon.name = pokeDetail.name
+  //console.log("Dados recebidos do pokeDetail:", pokeDetail); // Log para depuração
 
-  const types = pokeDetail.types.map((typeSlot) => typeSlot.type.name)
-  const [type] = types
+  const pokemon = new Pokemon();
 
-  pokemon.type = type
-  pokemon.types = types
+  // Número e nome do Pokémon
+  pokemon.number = pokeDetail.id || 0;
+  pokemon.name = pokeDetail.name || "Desconhecido";
 
-  pokemon.image = pokeDetail.sprites.other.dream_world.front_default
+  // Tipos
+  const types = (pokeDetail.types || []).map(
+    (typeSlot) => typeSlot.type?.name || "Desconhecido"
+  );
+  pokemon.types = types;
+  pokemon.type = types[0] || "Desconhecido";
 
-  return pokemon
+  // Imagem
+  pokemon.image =
+    pokeDetail.sprites?.other?.dream_world?.front_default ||
+    pokeDetail.sprites?.front_default ||
+    "default-image.png";
+
+  // Altura e peso
+  pokemon.height = pokeDetail.height || 0;
+  pokemon.weight = pokeDetail.weight || 0;
+
+  // Habilidades
+  //console.log("Habilidades encontradas:", pokeDetail.abilities); // Verificar estrutura de abilities
+
+  pokemon.abilities = (pokeDetail.abilities || []).map((abilitySlot) => {
+    //console.log("Analisando abilitySlot:", abilitySlot); // Log para cada habilidade
+    return abilitySlot?.ability?.name || "Habilidade desconhecida";
+  });
+
+  //console.log("Habilidades processadas:", pokemon.abilities); // Verificar habilidades finais
+
+  return pokemon;
 }
+
+
 
 
 pokeApi.getPokemonDetail = (pokemon) => {
