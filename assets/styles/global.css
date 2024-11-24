@@ -7,69 +7,77 @@
 :root {
   --font-family: "Poppins", "Roboto", "Open Sans", sans-serif;
   --background-color-modal: #ffff;
-  --background-color-identity: #DC0A2D;
-  --color-primary: #F5F5F5;
+  --background-color-identity: #dc0a2d;
+  --color-primary: #f5f5f5;
   --color-secondary: #4b0404;
+  --color-primary-modal: #000;
   --color-button: #333;
 }
 
 body {
   font-family: var(--font-family);
   background-color: var(--background-color-identity);
-  font-size: 0.825rem;
+  font-size: 0.625rem;
 }
 
+/* Classe auxiliar com estilos reutilizáveis */
+.style-btn-close {
+  border-radius: 1rem 1rem 0 0;
+  padding: 0.5rem;
+}
+
+
 .normal {
-  background-color: #AAA67F ;
+  background-color: #aaa67f;
 }
 .grass {
-  background-color: #74CB48 ;
+  background-color: #74cb48;
 }
 .fire {
-  background-color: #F57D31 ;
+  background-color: #f57d31;
 }
-.water { 
-  background-color: #6493EB ;
+.water {
+  background-color: #6493eb;
 }
 .electric {
-  background-color: #F9CF30 ;
+  background-color: #f9cf30;
 }
 .ice {
-  background-color: #9AD6DF ;
+  background-color: #9ad6df;
 }
 .ground {
-  background-color: #DEC16B ;
+  background-color: #dec16b;
 }
 .flying {
-  background-color: #A891EC ;
+  background-color: #a891ec;
 }
 .poison {
-  background-color: #A43E9E ;
+  background-color: #a43e9e;
 }
 .fighting {
-  background-color: #C12239 ;
+  background-color: #c12239;
 }
 .psychic {
-  background-color: #FB5584 ;
+  background-color: #fb5584;
 }
 .bug {
-  background-color: #A7B723 ;
+  background-color: #a7b723;
 }
 .rock {
-  background-color: #B69E31 ;
+  background-color: #b69e31;
 }
-.ghost { 
-  background-color: #70559B ;
+.ghost {
+  background-color: #70559b;
 }
 .dark {
-  background-color: #75574C ;
+  background-color: #75574c;
 }
 .steel {
-  background-color: #B7B9D0 ;
+  background-color: #b7b9d0;
 }
 .fairy {
-  background-color: #E69EAC ;
+  background-color: #e69eac;
 }
 .dragon {
-  background-color: #7037FF ;
+  background-color: #7037ff;
 }
