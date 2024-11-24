@@ -4,15 +4,43 @@ export function showPokemonDetails(pokemon) {
 
   // Gera o conteúdo do modal com as informações do Pokémon
   modalContent.innerHTML = `
-    <button class="modal-close-button ${pokemon.type}" >Fechar</button>
-    <h2>${pokemon.name}&nbsp;-&nbsp;${pokemon.number}</h2>
-    <img src="${pokemon.image}" alt="${pokemon.name}">
-    <h3>Tipo:</h3>
-    <p>${pokemon.types.join('&nbsp;&nbsp;&nbsp;')}</p>
-    <h3>Caracteríticas</h3>
-    <p>Habilidades: ${pokemon.abilities.join('&nbsp;&&nbsp;')}</p>
-    <p>Altura: ${pokemon.height}&nbsp;m</p>
-    <p>Peso: ${pokemon.weight}&nbsp;kg</p>
+<div class="poke-info ${pokemon.type}">
+  <button class="modal-close-button ${pokemon.type}">Fechar</button>
+  <h2>${pokemon.name}&nbsp;-&nbsp;${pokemon.number}</h2>
+  <img src="${pokemon.image}" alt="${pokemon.name}" />
+</div>
+
+<div class="pokemon-info">
+  <div>
+    <h3>Tipo</h3>
+    <ol class="poke-types">
+      ${pokemon.types
+        .map((type) => `<p class="type ${type}">${type}</p>`)
+        .join("")}
+    </ol>
+  </div>
+
+<div class="content-info">
+    <h3>Caracterísiticas</h3>
+  <!-- Peso -->
+    <div class="info-item">
+      <span class="label"><img src="./assets/icons/weight.svg" alt="Peso Icon">Peso:</span>
+      <span class="value">&nbsp;&nbsp;${pokemon.weight}&nbsp;kg</span>
+      
+    </div>
+
+  <!-- Altura -->
+    <div class="info-item">
+      <span class="label"><img src="./assets/icons/straighten.svg" alt="Altura Icon">Altura:</span>
+      <span class="value">&nbsp;&nbsp;${pokemon.height}&nbsp;m</span>
+    </div>
+
+  <!-- Habilidades -->
+    <div class="info-item-abilities">
+      <span class="label">Habilidades:</span>
+      <span class="value">&nbsp;${pokemon.abilities.join("&nbsp;&nbsp;")}</span>
+    </div>
+</div>
   `;
 
   // Remove a classe que esconde o modal
