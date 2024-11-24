@@ -5,7 +5,7 @@ const pokemonList = document.getElementById("pokemonList");
 const nextButton = document.getElementById("nextButton");
 const searchInput = document.querySelector(".search");
 
-const maxRecords = 164;
+const maxRecords = 200;
 const limit = 5;
 let offset = 0;
 let allLoadedPokemons = []; // Array para armazenar todos os Pokémon carregados
