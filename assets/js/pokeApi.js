@@ -25,7 +25,7 @@ function convertPokeApiDetailToPokemon(pokeDetail) {
     "default-image.png";
 
   // Altura e peso
-  pokemon.height = pokeDetail.height || 0;
+  pokemon.height = (pokeDetail.height / 10).toFixed(1) || 0;
   pokemon.weight = pokeDetail.weight || 0;
 
   // Habilidades
