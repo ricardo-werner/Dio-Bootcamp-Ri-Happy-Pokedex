@@ -27,14 +27,14 @@
 
 .value {
   font-weight: bold;
-  font-size: 0.625rem;
+  font-size: 0.825rem;
   text-transform: capitalize;
 }
 
 .label {
   display: inline-flex;
   margin: 0 0.325rerm;
-  font-size: 0.625rem;
+  font-size: 0.825rem;
   color: var(--color-primary-modal);
 }
 
