@@ -6,7 +6,8 @@
 
 :root {
   --font-family: "Poppins", "Roboto", "Open Sans", sans-serif;
-  --color-identity: #DC0A2D;
+  --background-color-modal: #ffff;
+  --background-color-identity: #DC0A2D;
   --color-primary: #F5F5F5;
   --color-secondary: #4b0404;
   --color-button: #333;
@@ -14,7 +15,7 @@
 
 body {
   font-family: var(--font-family);
-  background-color: var(--color-identity);
+  background-color: var(--background-color-identity);
   font-size: 0.825rem;
 }
 
