@@ -1,5 +1,5 @@
 import { pokeApi } from "./pokeApi.js";
-import { showPokemonDetails, closePokemonModal } from "./modal.js";
+import { showPokemonDetails, closePokemonModal } from "./pokeModal.js";
 
 const pokemonList = document.getElementById("pokemonList");
 const nextButton = document.getElementById("nextButton");
