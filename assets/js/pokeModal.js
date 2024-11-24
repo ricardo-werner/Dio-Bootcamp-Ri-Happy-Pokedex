@@ -4,7 +4,7 @@ export function showPokemonDetails(pokemon) {
 
   // Gera o conteúdo do modal com as informações do Pokémon
   modalContent.innerHTML = `
-<div class="poke-info ${pokemon.type}">
+<div class="style-btn-close poke-info ${pokemon.type}">
   <button class="modal-close-button ${pokemon.type}">Fechar</button>
   <h2>${pokemon.name}&nbsp;-&nbsp;${pokemon.number}</h2>
   <img src="${pokemon.image}" alt="${pokemon.name}" />
