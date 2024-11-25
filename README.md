@@ -53,6 +53,11 @@ https://ricardo-werner.github.io/Dio-Bootcamp_Ri-Happy-Pokedex/
   <img width="480" src="./assets/to_readme/tela_codigos.PNG" alt="imagem dos códigos utilizados na programação da pagina do Pokedex">
 </p>
 
+#### Tela do arquivo JSON da POKEAPI
+<p align="center">
+  <img width="480" src="./assets/to_readme/pokeApiJson.PNG" alt="imagem do arquivo json da pokeapi">
+</p>
+
 ### 🧩 Desafio
 
 O desafio deste projeto foi desenvolver uma Pokédex interativa, aplicando os conhecimentos adquiridos em JavaScript. O objetivo era criar uma aplicação dinâmica que consumisse a PokéAPI para exibir informações dos Pokémon, permitindo interação com o usuário por meio de:
