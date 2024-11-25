@@ -28,19 +28,29 @@ O objetivo deste projeto é desenvolver uma página interativa para exibir infor
 
 
 
-#### Tela da Página
+#### Tela da Página do Pokedex
 <p align="center">
   <img width="480" src="./assets/to_readme/tela_inicial.PNG" alt="imagem da tela da página do Pokedex"
 </p>
 
-#### Tela da Página com Resultado
+#### Tela da Página com Resultado da lista de Pokémons
 <p align="center">
-  <img width="480" src="./assets/to_readme/telaFinal.png" alt="imagem da tela do resultado da página do Pokedex">
+  <img width="480" src="./assets/to_readme/tela_resultado.PNG" alt="imagem da tela do resultado da página do Pokedex">
 </p>
 
-#### Tela do código
+#### Tela da Página de detalhes do Pokémon
 <p align="center">
-  <img width="480" src="./assets/to_readme/telaCodigo.png" alt="imagem dos códigos utilizados na programação da pagina do Pokedex">
+  <img width="480" src="./assets/to_readme/tela_poke_detalhes.PNG" alt="imagem da tela dos detalhes do Pokémon">
+</p>
+
+#### Tela da Página com o resultado da busca por Pokémon (apenas faz a busca pelos cards da lista)
+<p align="center">
+  <img width="480" src="./assets/to_readme/tela_resultado_search.PNG" alt="imagem da tela de pesquisa do Pokémon">
+</p>
+
+#### Tela do código do Pokedex
+<p align="center">
+  <img width="480" src="./assets/to_readme/tela_codigos.PNG" alt="imagem dos códigos utilizados na programação da pagina do Pokedex">
 </p>
 
 ### 🧩 Desafio
