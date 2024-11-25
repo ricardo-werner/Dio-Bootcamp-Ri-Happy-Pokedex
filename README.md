@@ -103,7 +103,7 @@ Desenvolver este projeto foi um marco significativo no meu aprendizado na progra
 
 1. Clone o repositório:
    
-  git clone https://github.com/ricardo-werner/Dio-Bootcamp_Ri-Happy-Pokedex.git
+    git clone https://github.com/ricardo-werner/Dio-Bootcamp_Ri-Happy-Pokedex.git
 
 3. Abra o projeto no Visual Studio Code e ative o Go Live:
     
