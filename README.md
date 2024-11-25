@@ -30,7 +30,7 @@ O objetivo deste projeto é desenvolver uma página interativa para exibir infor
 
 #### Tela da Página do Pokedex
 <p align="center">
-  <img width="480" src="" alt="imagem da tela da página do Pokedex"
+  <img width="480" src="./assets/to_readme/tela_inicial.PNG" alt="imagem da tela da página do Pokedex"
 </p>
 
 #### Tela da Página com Resultado da lista de Pokémons
