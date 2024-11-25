@@ -26,7 +26,7 @@ O objetivo deste projeto é desenvolver uma página interativa para exibir infor
 
 ### 🎥 Deploy
 
-
+https://ricardo-werner.github.io/Dio-Bootcamp_Ri-Happy-Pokedex/
 
 #### Tela da Página do Pokedex
 <p align="center">
