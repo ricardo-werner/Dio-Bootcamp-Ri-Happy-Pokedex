@@ -77,7 +77,7 @@ O desafio deste projeto foi desenvolver uma Pokédex interativa, aplicando os co
 |  2    | Modelagem do layout, formatos, tipografias, cores e organização livre.          |
 |  2.1  | Opcional: Modelagem de modo livre.                                              |
 |  3    | A página deve consumir a api POKEAPI                                            |
-|  4    | Lista dos Pokémons deve ser dinêmica                                            |
+|  4    | Lista dos Pokémons deve ser dinâmica                                            |
 |  5    | Adicionar uma forma de apresentar os detalhes extra dos Pokémons                |
 |  XX   | Adicionado busca dinâmica por Pokémon (desde que esteja na lista em tela)       |
 
