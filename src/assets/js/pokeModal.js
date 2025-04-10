@@ -16,7 +16,7 @@ export function showPokemonDetails(pokemon) {
     <ol class="poke-types">
       ${pokemon.types
         .map((type) => `<p class="type ${type}">${type}</p>`)
-        .join("")}
+        .join('')}
     </ol>
   </div>
 
@@ -24,21 +24,21 @@ export function showPokemonDetails(pokemon) {
     <h3>Caracterísiticas</h3>
   <!-- Peso -->
     <div class="info-item">
-      <span class="label"><img src="./assets/icons/weight.svg" alt="Peso Icon">Peso:</span>
+      <span class="label"><img src="./src/assets/icons/weight.svg" alt="Peso Icon">Peso:</span>
       <span class="value">&nbsp;&nbsp;${pokemon.weight}&nbsp;kg</span>
       
     </div>
 
   <!-- Altura -->
     <div class="info-item">
-      <span class="label"><img src="./assets/icons/straighten.svg" alt="Altura Icon">Altura:</span>
+      <span class="label"><img src="./src/assets/icons/straighten.svg" alt="Altura Icon">Altura:</span>
       <span class="value">&nbsp;&nbsp;${pokemon.height}&nbsp;m</span>
     </div>
 
   <!-- Habilidades -->
     <div class="info-item-abilities">
       <span class="label">Habilidades:</span>
-      <span class="value">&nbsp;${pokemon.abilities.join("&nbsp;&nbsp;")}</span>
+      <span class="value">&nbsp;${pokemon.abilities.join('&nbsp;&nbsp;')}</span>
     </div>
 </div>
   `;

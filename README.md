@@ -30,32 +30,32 @@ https://ricardo-werner.github.io/Dio-Bootcamp_Ri-Happy-Pokedex/
 
 #### Tela da Página do Pokedex
 <p align="center">
-  <img width="480" src="./assets/to_readme/tela_inicial.PNG" alt="imagem da tela da página do Pokedex"
+  <img width="480" src="./src/assets/to_readme/tela_inicial.PNG" alt="imagem da tela da página do Pokedex"
 </p>
 
 #### Tela da Página com Resultado da lista de Pokémons
 <p align="center">
-  <img width="480" src="./assets/to_readme/tela_resultado.PNG" alt="imagem da tela do resultado da página do Pokedex">
+  <img width="480" src="./src/assets/to_readme/tela_resultado.PNG" alt="imagem da tela do resultado da página do Pokedex">
 </p>
 
 #### Tela da Página de detalhes do Pokémon
 <p align="center">
-  <img width="480" src="./assets/to_readme/tela_poke_detalhes.PNG" alt="imagem da tela dos detalhes do Pokémon">
+  <img width="480" src="./src/assets/to_readme/tela_poke_detalhes.PNG" alt="imagem da tela dos detalhes do Pokémon">
 </p>
 
 #### Tela da Página com o resultado da busca por Pokémon (apenas faz a busca pelos cards da lista)
 <p align="center">
-  <img width="480" src="./assets/to_readme/tela_resultado_search.PNG" alt="imagem da tela de pesquisa do Pokémon">
+  <img width="480" src="./src/assets/to_readme/tela_resultado_search.PNG" alt="imagem da tela de pesquisa do Pokémon">
 </p>
 
 #### Tela do código do Pokedex
 <p align="center">
-  <img width="480" src="./assets/to_readme/tela_codigos.PNG" alt="imagem dos códigos utilizados na programação da pagina do Pokedex">
+  <img width="480" src="./src/assets/to_readme/tela_codigos.PNG" alt="imagem dos códigos utilizados na programação da pagina do Pokedex">
 </p>
 
 #### Tela do arquivo JSON da POKEAPI
 <p align="center">
-  <img width="480" src="./assets/to_readme/pokeApiJson.PNG" alt="imagem do arquivo json da pokeapi">
+  <img width="480" src="./src/assets/to_readme/pokeApiJson.PNG" alt="imagem do arquivo json da pokeapi">
 </p>
 
 ### 🧩 Desafio
@@ -114,17 +114,17 @@ Desenvolver este projeto foi um marco significativo no meu aprendizado na progra
 3. Abra o projeto no Visual Studio Code e ative o Go Live:
     
    <p align="center">
-     <img width="280" src="./assets/to_readme/GoLive.jpg" alt="Ativando o Go Live">
+     <img width="280" src="./src/assets/to_readme/GoLive.jpg" alt="Ativando o Go Live">
    </p>
 
    <p align="center">
-     <img width="280" src="./assets/to_readme/GoLiveOn.jpg" alt="Go Live ativado">
+     <img width="280" src="./src/assets/to_readme/GoLiveOn.jpg" alt="Go Live ativado">
    </p>
 
 4. Visualize o resultado na página web:
 
    <p align="center">
-     <img width="480" src="./assets/to_readme/telaWeb.PNG" alt="Resultado na Web">
+     <img width="480" src="./src/assets/to_readme/telaWeb.PNG" alt="Resultado na Web">
    </p>
 
 
